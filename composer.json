@@ -1,0 +1,26 @@
+{
+    "name": "ayazdev/bakhti",
+    "description": "A package for admin panel and dynamic crud system which can be use in laravel based projects.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ayaz",
+            "email": "iyazinfo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ayazdev\\Bakhti\\": "src/"
+        }
+    },
+    "extra": {
+		"laravel": {
+			"providers": [
+				"ayazdev\\Bakhti\\BakhtiServiceProvider"
+			]
+		}
+	}
+}
